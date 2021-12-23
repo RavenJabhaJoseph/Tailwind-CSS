@@ -1,0 +1,27 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "This project is for to learn and implement the concepts of Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RavenJabhaJoseph/Tailwind-CSS.git"
+  },
+  "keywords": [
+    "CSS3",
+    "Tailwind",
+    "CSS"
+  ],
+  "author": "RavenJabhaJoseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RavenJabhaJoseph/Tailwind-CSS/issues"
+  },
+  "homepage": "https://github.com/RavenJabhaJoseph/Tailwind-CSS#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
