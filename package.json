@@ -1,27 +1,27 @@
 {
   "name": "tailwind-css",
   "version": "1.0.0",
-  "description": "This project is for to learn and implement the concepts of Tailwind CSS.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"build:css": "postcss src/tailwind.css -o dist/tailwind.css",
+	"watch": "watch 'npm run build:css' ./layouts"	
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RavenJabhaJoseph/Tailwind-CSS.git"
   },
-  "keywords": [
-    "CSS3",
-    "Tailwind",
-    "CSS"
-  ],
-  "author": "RavenJabhaJoseph",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RavenJabhaJoseph/Tailwind-CSS/issues"
   },
   "homepage": "https://github.com/RavenJabhaJoseph/Tailwind-CSS#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.0.7"
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7",
+    "watch": "^1.0.2"
   }
 }
