@@ -1,4 +1,4 @@
-onst tailwindcss = require('tailwindcss');
+const tailwindcss = require('tailwindcss');
 
 module.exports = {  
 
