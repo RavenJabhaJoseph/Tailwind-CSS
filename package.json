@@ -1,27 +1,35 @@
 {
   "name": "tailwind-css",
   "version": "1.0.0",
-  "description": "This project is for to learn and implement the concepts of Tailwind CSS.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "webpack serve --mode=development",
+    "build": "export NODE_ENV=production && webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RavenJabhaJoseph/Tailwind-CSS.git"
   },
-  "keywords": [
-    "CSS3",
-    "Tailwind",
-    "CSS"
-  ],
-  "author": "RavenJabhaJoseph",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RavenJabhaJoseph/Tailwind-CSS/issues"
   },
   "homepage": "https://github.com/RavenJabhaJoseph/Tailwind-CSS#readme",
   "devDependencies": {
-    "tailwindcss": "^3.0.7"
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.1.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.8",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
   }
 }
